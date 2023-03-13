@@ -3,9 +3,6 @@ site_description: Documentação para uso do robô para Telegram Fox - A Link to
 site_author: Samir Angelo Milani Martins
 site_url: https://www.samirmartins.com.br
 
-repo_name: samirmartins/fox_documentation
-repo_url: https://github.com/samirmartins/fox_documentation
-
 copyright: Copyright &copy; 2023 - Samir Martins
 
 nav:

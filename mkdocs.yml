@@ -10,6 +10,33 @@ copyright: Copyright &copy; 2023 - Samir Martins
 
 nav:
   - Principal: index.md
+  - Commandos Básicos:
+    - /ajuda: ajuda.md
+    - /ativosdisponiveis: ativosdisponiveis.md
+    - /escrevame: escrevame.md
+    - /contatos: contatos.md
+    - /videotutorial: videotutorial.md
+    - /documentacao: documentacao.md
+  - Análise Técnica:
+    - /resumo: resumo.md
+    - /barradesinal: barradesinal.md
+    - /tamanhobarras: tamanhobarras.md
+    - /tendencia: tendencia.md
+    - /localizacao: localizacao.md
+    - /canal: canal.md
+    - /tipodemercado: tipodemercado.md
+    - /rompimentos: rompimentos.md
+    - /rsi: rsi.md
+    - /stochrsi: stochrsi.md
+    - /stoch: stoch.md
+    - /tsi: tsi.md
+    - /ao: ao.md
+    - /ppo: ppo.md
+    - /roc: roc.md
+    - /correlacao: correlacao.md
+  - Análise Fundamentalista:
+    - /fundamentalista: fundamentalista.md
+
 
 theme:
   favicon: img/favicon.ico

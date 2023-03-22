@@ -14,7 +14,7 @@ Para utilizá-lo, digite:
 Exemplo: 
 
 ```console
-/barradesinal VALE3.SA
+/tipodemercado VALE3.SA
 ```
 
 E verá como saída: 

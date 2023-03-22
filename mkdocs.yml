@@ -10,25 +10,25 @@ nav:
   - Commandos Básicos:
     - /ajuda: ajuda.md
     - /ativosdisponiveis: ativosdisponiveis.md
-    - /escrevame: escrevame.md
     - /contatos: contatos.md
+    - /escrevame: escrevame.md
   - Análise Técnica:
-    - /resumo: resumo.md
+    - /ao: ao.md
     - /barradesinal: barradesinal.md
-    - /tamanhobarras: tamanhobarras.md
-    - /tendencia: tendencia.md
-    - /localizacao: localizacao.md
     - /canal: canal.md
-    - /tipodemercado: tipodemercado.md
+    - /correlacao: correlacao.md
+    - /localizacao: localizacao.md
+    - /ppo: ppo.md
+    - /resumo: resumo.md
+    - /roc: roc.md
     - /rompimentos: rompimentos.md
     - /rsi: rsi.md
-    - /stochrsi: stochrsi.md
     - /stoch: stoch.md
+    - /stochrsi: stochrsi.md
+    - /tamanhobarras: tamanhobarras.md
+    - /tendencia: tendencia.md
+    - /tipodemercado: tipodemercado.md
     - /tsi: tsi.md
-    - /ao: ao.md
-    - /ppo: ppo.md
-    - /roc: roc.md
-    - /correlacao: correlacao.md
   - Análise Fundamentalista:
     - /fundamentalista: fundamentalista.md
 

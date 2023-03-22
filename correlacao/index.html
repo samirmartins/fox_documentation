@@ -277,20 +277,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../escrevame/" class="md-nav__link">
-        /escrevame
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../contatos/" class="md-nav__link">
         /contatos
       </a>
@@ -305,22 +291,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../videotutorial/" class="md-nav__link">
-        /videotutorial
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../documentacao/" class="md-nav__link">
-        /documentacao
+      <a href="../escrevame/" class="md-nav__link">
+        /escrevame
       </a>
     </li>
   
@@ -369,8 +341,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../resumo/" class="md-nav__link">
-        /resumo
+      <a href="../ao/" class="md-nav__link">
+        /ao
       </a>
     </li>
   
@@ -397,8 +369,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../tamanhobarras/" class="md-nav__link">
-        /tamanhobarras
+      <a href="../canal/" class="md-nav__link">
+        /canal
       </a>
     </li>
   
@@ -409,11 +381,19 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../tendencia/" class="md-nav__link">
-        /tendencia
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        /correlacao
       </a>
+      
     </li>
   
 
@@ -439,8 +419,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../canal/" class="md-nav__link">
-        /canal
+      <a href="../ppo/" class="md-nav__link">
+        /ppo
       </a>
     </li>
   
@@ -453,8 +433,22 @@
   
   
     <li class="md-nav__item">
-      <a href="../tipodemercado/" class="md-nav__link">
-        /tipodemercado
+      <a href="../resumo/" class="md-nav__link">
+        /resumo
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../roc/" class="md-nav__link">
+        /roc
       </a>
     </li>
   
@@ -495,6 +489,20 @@
   
   
     <li class="md-nav__item">
+      <a href="../stoch/" class="md-nav__link">
+        /stoch
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../stochrsi/" class="md-nav__link">
         /stochrsi
       </a>
@@ -509,8 +517,36 @@
   
   
     <li class="md-nav__item">
-      <a href="../stoch/" class="md-nav__link">
-        /stoch
+      <a href="../tamanhobarras/" class="md-nav__link">
+        /tamanhobarras
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tendencia/" class="md-nav__link">
+        /tendencia
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tipodemercado/" class="md-nav__link">
+        /tipodemercado
       </a>
     </li>
   
@@ -526,70 +562,6 @@
       <a href="../tsi/" class="md-nav__link">
         /tsi
       </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../ao/" class="md-nav__link">
-        /ao
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../ppo/" class="md-nav__link">
-        /ppo
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../roc/" class="md-nav__link">
-        /roc
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-    
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        /correlacao
-      </a>
-      
     </li>
   
 
@@ -682,7 +654,17 @@
 
   <h1>/correlacao</h1>
 
-<p>Em construção....</p>
+<p>Este comando avalia a correlação de Pearson entre
+um número de ativos definido pelo usuário. Comando 
+útil para analisar a diversificação de uma dada carteira. </p>
+<p>Para utilizá-lo, digite: </p>
+<pre><code class="language-console">/correlacao ativo_1 ativo_2 ... ativo_N
+</code></pre>
+<p>Exemplo: </p>
+<pre><code class="language-console">/correlacao BTC/USDT BOVA11.SA PETR4.SA VET/BTC
+</code></pre>
+<p>E verá como saída: </p>
+<p><img alt="" src="/img/correlacao.png" /></p>
 
 
 
@@ -703,7 +685,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Rodapé" >
       
         
-        <a href="../roc/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: /roc" rel="prev">
+        <a href="../canal/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: /canal" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -712,20 +694,20 @@
               <span class="md-footer__direction">
                 Anterior
               </span>
-              /roc
+              /canal
             </div>
           </div>
         </a>
       
       
         
-        <a href="../fundamentalista/" class="md-footer__link md-footer__link--next" aria-label="Próximo: /fundamentalista" rel="next">
+        <a href="../localizacao/" class="md-footer__link md-footer__link--next" aria-label="Próximo: /localizacao" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Próximo
               </span>
-              /fundamentalista
+              /localizacao
             </div>
           </div>
           <div class="md-footer__button md-icon">

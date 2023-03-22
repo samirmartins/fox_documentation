@@ -277,20 +277,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../escrevame/" class="md-nav__link">
-        /escrevame
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../contatos/" class="md-nav__link">
         /contatos
       </a>
@@ -305,22 +291,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../videotutorial/" class="md-nav__link">
-        /videotutorial
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../documentacao/" class="md-nav__link">
-        /documentacao
+      <a href="../escrevame/" class="md-nav__link">
+        /escrevame
       </a>
     </li>
   
@@ -369,8 +341,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../resumo/" class="md-nav__link">
-        /resumo
+      <a href="../ao/" class="md-nav__link">
+        /ao
       </a>
     </li>
   
@@ -405,8 +377,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../tamanhobarras/" class="md-nav__link">
-        /tamanhobarras
+      <a href="../canal/" class="md-nav__link">
+        /canal
       </a>
     </li>
   
@@ -419,8 +391,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../tendencia/" class="md-nav__link">
-        /tendencia
+      <a href="../correlacao/" class="md-nav__link">
+        /correlacao
       </a>
     </li>
   
@@ -447,8 +419,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../canal/" class="md-nav__link">
-        /canal
+      <a href="../ppo/" class="md-nav__link">
+        /ppo
       </a>
     </li>
   
@@ -461,8 +433,22 @@
   
   
     <li class="md-nav__item">
-      <a href="../tipodemercado/" class="md-nav__link">
-        /tipodemercado
+      <a href="../resumo/" class="md-nav__link">
+        /resumo
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../roc/" class="md-nav__link">
+        /roc
       </a>
     </li>
   
@@ -503,20 +489,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../stochrsi/" class="md-nav__link">
-        /stochrsi
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../stoch/" class="md-nav__link">
         /stoch
       </a>
@@ -531,64 +503,64 @@
   
   
     <li class="md-nav__item">
+      <a href="../stochrsi/" class="md-nav__link">
+        /stochrsi
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tamanhobarras/" class="md-nav__link">
+        /tamanhobarras
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tendencia/" class="md-nav__link">
+        /tendencia
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tipodemercado/" class="md-nav__link">
+        /tipodemercado
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../tsi/" class="md-nav__link">
         /tsi
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../ao/" class="md-nav__link">
-        /ao
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../ppo/" class="md-nav__link">
-        /ppo
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../roc/" class="md-nav__link">
-        /roc
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../correlacao/" class="md-nav__link">
-        /correlacao
       </a>
     </li>
   
@@ -682,7 +654,24 @@
 
   <h1>/barradesinal</h1>
 
-<p>Em construção....</p>
+<p>Este comando analisa a ocorrência de diferentes tipos de 
+barra de sinal em um determinado ativo definido pelo usuário, em que:</p>
+<ol>
+<li><strong>BSB</strong> se refere a barra de sinal de compra</li>
+<li><strong>SSB</strong> contempla as barras de sinais de venda</li>
+<li><strong>INSIDE</strong> avalia a ocorrência de inside bar (barras internas)</li>
+<li><strong>OUTSIDE</strong> analisa se houve barras externas (outside bars)</li>
+</ol>
+<p>Os tempos gráficos em questão são <strong>5m, 15m, 30m, 1h, 1d</strong>, em 
+que "m" se refere a minutos, "h" a hora e "d" a dia.</p>
+<p>Para utilizá-lo, digite: </p>
+<pre><code class="language-console">/barradesinal ativo
+</code></pre>
+<p>Exemplo: </p>
+<pre><code class="language-console">/barradesinal BTC/USDT
+</code></pre>
+<p>E verá como saída: </p>
+<p><img alt="" src="/img/barradesinal.png" /></p>
 
 
 
@@ -703,7 +692,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Rodapé" >
       
         
-        <a href="../resumo/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: /resumo" rel="prev">
+        <a href="../ao/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: /ao" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -712,20 +701,20 @@
               <span class="md-footer__direction">
                 Anterior
               </span>
-              /resumo
+              /ao
             </div>
           </div>
         </a>
       
       
         
-        <a href="../tamanhobarras/" class="md-footer__link md-footer__link--next" aria-label="Próximo: /tamanhobarras" rel="next">
+        <a href="../canal/" class="md-footer__link md-footer__link--next" aria-label="Próximo: /canal" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Próximo
               </span>
-              /tamanhobarras
+              /canal
             </div>
           </div>
           <div class="md-footer__button md-icon">

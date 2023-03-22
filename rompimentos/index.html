@@ -277,20 +277,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../escrevame/" class="md-nav__link">
-        /escrevame
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../contatos/" class="md-nav__link">
         /contatos
       </a>
@@ -305,22 +291,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../videotutorial/" class="md-nav__link">
-        /videotutorial
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../documentacao/" class="md-nav__link">
-        /documentacao
+      <a href="../escrevame/" class="md-nav__link">
+        /escrevame
       </a>
     </li>
   
@@ -369,8 +341,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../resumo/" class="md-nav__link">
-        /resumo
+      <a href="../ao/" class="md-nav__link">
+        /ao
       </a>
     </li>
   
@@ -397,8 +369,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../tamanhobarras/" class="md-nav__link">
-        /tamanhobarras
+      <a href="../canal/" class="md-nav__link">
+        /canal
       </a>
     </li>
   
@@ -411,8 +383,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../tendencia/" class="md-nav__link">
-        /tendencia
+      <a href="../correlacao/" class="md-nav__link">
+        /correlacao
       </a>
     </li>
   
@@ -439,8 +411,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../canal/" class="md-nav__link">
-        /canal
+      <a href="../ppo/" class="md-nav__link">
+        /ppo
       </a>
     </li>
   
@@ -453,8 +425,22 @@
   
   
     <li class="md-nav__item">
-      <a href="../tipodemercado/" class="md-nav__link">
-        /tipodemercado
+      <a href="../resumo/" class="md-nav__link">
+        /resumo
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../roc/" class="md-nav__link">
+        /roc
       </a>
     </li>
   
@@ -503,20 +489,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../stochrsi/" class="md-nav__link">
-        /stochrsi
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../stoch/" class="md-nav__link">
         /stoch
       </a>
@@ -531,64 +503,64 @@
   
   
     <li class="md-nav__item">
+      <a href="../stochrsi/" class="md-nav__link">
+        /stochrsi
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tamanhobarras/" class="md-nav__link">
+        /tamanhobarras
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tendencia/" class="md-nav__link">
+        /tendencia
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tipodemercado/" class="md-nav__link">
+        /tipodemercado
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../tsi/" class="md-nav__link">
         /tsi
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../ao/" class="md-nav__link">
-        /ao
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../ppo/" class="md-nav__link">
-        /ppo
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../roc/" class="md-nav__link">
-        /roc
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../correlacao/" class="md-nav__link">
-        /correlacao
       </a>
     </li>
   
@@ -682,7 +654,44 @@
 
   <h1>/rompimentos</h1>
 
-<p>Em construção....</p>
+<p>Este comando avalia cinco condições que tornam 
+provável um rompimento bem sucedido. As condições são 
+as que seguem: </p>
+<ol>
+<li>
+<p>Barras de sinal em 2 ou mais barras consecutivas no tempo gráfico 
+nas últimas 5 barras; </p>
+</li>
+<li>
+<p>Ausência de mercado de ordem limitada (LOM); </p>
+</li>
+<li>
+<p>Três (3) ou mais barras de tendência consecutivas nas últimas 5 barras; </p>
+</li>
+<li>
+<p>Verificação de ocorrência de gaps (minima da 
+última barra maior que a máxima da antepenultima 
+barra, em caso de rompimento de alta, e o 
+inverso para rompimento de baixa) nas últimas 3 barras; </p>
+</li>
+<li>
+<p>Pavio muito pequeno (menor que 30% do 
+corpo da barra) ou ausência de pavio 
+abaixo da barra (rompimento de alta)<br />
+ou acima de barra (rompimento de baixa) 
+em pelo menos 2 das últimas 3 barras.</p>
+</li>
+</ol>
+<p>Tempos gráficos que podem ser escolhidos: <strong>5m, 15m, 30m, 1h, 1d</strong>, em 
+que "m" se refere a minutos, "h" a hora e "d" a dia.</p>
+<p>Para utilizá-lo, digite: </p>
+<pre><code class="language-console">/rompimentos ativo tempo_grafico
+</code></pre>
+<p>Exemplo: </p>
+<pre><code class="language-console">/rompimentos WEGE3.SA D1
+</code></pre>
+<p>E verá como saída: </p>
+<p><img alt="" src="/img/rompimentos.png" /></p>
 
 
 
@@ -703,7 +712,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Rodapé" >
       
         
-        <a href="../tipodemercado/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: /tipodemercado" rel="prev">
+        <a href="../roc/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: /roc" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -712,7 +721,7 @@
               <span class="md-footer__direction">
                 Anterior
               </span>
-              /tipodemercado
+              /roc
             </div>
           </div>
         </a>

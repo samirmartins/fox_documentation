@@ -7,7 +7,7 @@ Para utilizá-lo, digite:
 /resumo ativo
 ```
 
-Ou, por exemplo: 
+Exemplo: 
 
 ```console
 /resumo BOVA11.SA

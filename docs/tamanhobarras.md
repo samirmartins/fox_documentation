@@ -31,4 +31,4 @@ Exemplo:
 
 E verá como saída: 
 
-![](/img/tamanhobarras.png)
+![](img/tamanhobarras.png)

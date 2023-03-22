@@ -9,4 +9,4 @@ Para utilizá-lo, digite:
 
 E verá como saída: 
 
-![](/img/contatos.png)
+![](img/contatos.png)

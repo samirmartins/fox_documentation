@@ -23,4 +23,4 @@ Exemplo:
 
 E verá como saída: 
 
-![](/img/barradesinal.png)
+![](img/barradesinal.png)

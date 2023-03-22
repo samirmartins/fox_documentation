@@ -10,4 +10,4 @@ Para utilizá-lo, digite:
 
 E verá como saída: 
 
-![](/img/escrevame.png)
+![](img/escrevame.png)

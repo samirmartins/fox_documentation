@@ -19,4 +19,4 @@ Exemplo:
 
 E verá como saída: 
 
-![](/img/tipodemercado.png)
+![](img/tipodemercado.png)

@@ -16,4 +16,4 @@ Exemplo:
 
 E verá como saída: 
 
-![](/img/correlacao.png)
+![](img/correlacao.png)

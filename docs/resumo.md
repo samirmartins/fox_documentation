@@ -15,7 +15,7 @@ Exemplo:
 
 E verá como saída: 
 
-![](/img/resumo.png)
+![](img/resumo.png)
 
 Com este comando você consegue um canal de 
 melhor ajuste no tempo gráfico M5 (5 minutos), assim como uma análise

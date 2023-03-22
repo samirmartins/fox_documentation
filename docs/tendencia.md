@@ -19,4 +19,4 @@ Exemplo:
 
 E verá como saída: 
 
-![](/img/tendencia.png)
+![](img/tendencia.png)

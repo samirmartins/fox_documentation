@@ -654,7 +654,27 @@
 
   <h1>/stoch</h1>
 
-<p>Em construção....</p>
+<p>Este comando calcula o indicador estocástico (stoch)
+para as últimas 100 barras
+de um ativo em questão, dado um tempo gráfico. </p>
+<p>Os tempos gráficos que podem ser utilizados  são: <strong>M5, M15, M30, H1, D1</strong>, em 
+que "M" se refere a minutos, "H" a hora e "D" a dia.</p>
+<p>Para utilizá-lo, escolha um dos comandos abaixo: </p>
+<pre><code class="language-console">/stoch ativo time_frame 
+/stoch ativo time_frame parametro_1 parametro_2
+</code></pre>
+<p>Em que: </p>
+<ol>
+<li>parametro_1 é o periodo do estocástico</li>
+<li>parametro_2 é o valor da janela da média móvel sobre %K</li>
+</ol>
+<p>Caso parametro_i, para i=1,2 não seja definido pelo usuário, 
+serão utilizados 14 e 3 como valores padrão</p>
+<p>Exemplo: </p>
+<pre><code class="language-console">/stoch BTC/USDT D1
+</code></pre>
+<p>E verá como saída: </p>
+<p><img alt="" src="../img/stoch.png" /></p>
 
 
 

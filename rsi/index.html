@@ -654,7 +654,22 @@
 
   <h1>/rsi</h1>
 
-<p>Em construção....</p>
+<p>Este comando calcula o índice de força relativa (relative
+strength index - rsi) para as últimas 100 barras
+de um ativo em questão, dado um tempo gráfico. </p>
+<p>Os tempos gráficos que podem ser utilizados  são: <strong>M5, M15, M30, H1, D1</strong>, em 
+que "M" se refere a minutos, "H" a hora e "D" a dia.</p>
+<p>Para utilizá-lo, escolha um dos comandos abaixo: </p>
+<pre><code class="language-console">/rsi ativo time_frame 
+/rsi ativo time_frame periodo
+</code></pre>
+<p>Caso "periodo" não seja definido pelo usuário, o valor de
+14 períodos será utilizado como padrão.</p>
+<p>Exemplo: </p>
+<pre><code class="language-console">/rsi BTC/USDT D1 14
+</code></pre>
+<p>E verá como saída: </p>
+<p><img alt="" src="../img/rsi.png" /></p>
 
 
 

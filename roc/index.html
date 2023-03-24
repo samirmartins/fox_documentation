@@ -654,7 +654,25 @@
 
   <h1>/roc</h1>
 
-<p>Em construção....</p>
+<p>Este comando calcula o indicador Rate of Change (ROC) para as últimas 100 barras
+de um ativo em questão, dado um tempo gráfico. </p>
+<p>Os tempos gráficos que podem ser utilizados  são: <strong>M5, M15, M30, H1, D1</strong>, em 
+que "M" se refere a minutos, "H" a hora e "D" a dia.</p>
+<p>Para utilizá-lo, escolha um dos comandos abaixo: </p>
+<pre><code class="language-console">/roc ativo time_frame 
+/roc ativo time_frame parametro_1
+</code></pre>
+<p>Em que: </p>
+<ol>
+<li>parametro_1 é o periodo utilizado no indicador</li>
+</ol>
+<p>Caso parametro_1 não seja definido pelo usuário, 
+será utilizado 12 como valor padrão</p>
+<p>Exemplo: </p>
+<pre><code class="language-console">/roc BTC/USDT D1 12
+</code></pre>
+<p>E verá como saída: </p>
+<p><img alt="" src="../img/roc.png" /></p>
 
 
 

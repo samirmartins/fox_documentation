@@ -654,7 +654,29 @@
 
   <h1>/ppo</h1>
 
-<p>Em construção....</p>
+<p>Este comando calcula o indicador 
+Percentage Price Oscillator (PPO)
+para as últimas 100 barras
+de um ativo em questão, dado um tempo gráfico. </p>
+<p>Os tempos gráficos que podem ser utilizados  são: <strong>M5, M15, M30, H1, D1</strong>, em 
+que "M" se refere a minutos, "H" a hora e "D" a dia.</p>
+<p>Para utilizá-lo, escolha um dos comandos abaixo: </p>
+<pre><code class="language-console">/ppo ativo time_frame 
+/ppo ativo time_frame parametro_1 parametro_2 parametro_3
+</code></pre>
+<p>Em que: </p>
+<ol>
+<li>parametro_1 é o período longo.</li>
+<li>parametro_2 é o período curto.</li>
+<li>parametro_3 é o período para o sinal.</li>
+</ol>
+<p>Caso parametro_i, para i=1,2 não seja definido pelo usuário, 
+serão utilizados 26, 12 e 9 como valores padrão.</p>
+<p>Exemplo: </p>
+<pre><code class="language-console">/ppo BTC/USDT D1 
+</code></pre>
+<p>E verá como saída: </p>
+<p><img alt="" src="../img/ppo.png" /></p>
 
 
 

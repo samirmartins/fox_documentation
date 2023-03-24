@@ -17,7 +17,7 @@ Em que:
 1. parametro_1 é o periodo do estocástico
 2. parametro_2 é o valor da janela da média móvel sobre %K
 
-Caso parametro_i, para i=1,2,3 não seja definido pelo usuário, 
+Caso parametro_i, para i=1,2 não seja definido pelo usuário, 
 serão utilizados 14 e 3 como valores padrão
 
 Exemplo: 

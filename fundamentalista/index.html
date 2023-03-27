@@ -654,7 +654,35 @@
 
   <h1>/fundamentalista</h1>
 
-<p>Em construção....</p>
+<p>Este comando é capaz de retornar múltiplos (Análise Fundamentalista) 
+de um dado ativo em questão, ou pode ser usado para 
+rankear ativos do índice bovespa em função de um dado 
+múltiplo. </p>
+<p>Para utilizá-lo existem diferentes formas:</p>
+<pre><code class="language-console">/fundamentalista ativo
+</code></pre>
+<p>Exemplo: </p>
+<pre><code class="language-console">/fundamentalista PETR4.SA
+</code></pre>
+<p>Que terá como saída: </p>
+<p><img alt="" src="../img/fundamentalista1.png" /></p>
+<p>Outras opções de uso são: </p>
+<pre><code class="language-console">/fundamentalista maiores/menores indicador
+</code></pre>
+<p>em que indicador pode ser uma das seguintes variáveis:</p>
+<ul>
+<li>cotacao, pl, pvp, psr, dy, pa, pcg, pebit, pacl, evebit, evebitda, mrgebit, mrgliq, roic, roe, liqc, liq2m, patrliq, divbpatr, c5y</li>
+</ul>
+<p>as quais representam os múltiplos. Por exemplo, o comando</p>
+<pre><code class="language-console">/fundamentalista maiores dy
+</code></pre>
+<p>retornará as ações com maiores Dividend Yield dentro do Ibovespa, 
+conforme apresentado a seguir: </p>
+<p><img alt="" src="../img/fundamentalista2.png" /></p>
+<p>O comando "maiores" pode ser substituido por "menores", fazendo com que 
+tenhamos o retorno dos ativos que pagam menos dividendo, 
+assim como o múltiplo pode ser alterado para qualquer
+dentre os indicados acima.</p>
 
 
 

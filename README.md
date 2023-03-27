@@ -4,7 +4,7 @@
   <img src="docs/img/Logo_Vertical/Logo_Vertical_Fundo_Preto.png" />
 </p>
 
-Este repositório armazena a documentação de uso do 
+Este repositório armazena o Guia do Usuário 
 bot para Telegram **FOX - A LINK TO THE PRICE**
 
 Este robô foi desenvolvido com o propósito de fornecer

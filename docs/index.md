@@ -27,7 +27,7 @@ Para utilizar o Fox - A Link to the Price, você
 pode pesquisar por @fox_priceAction_bot em seu 
 Telegram ou usar o link abaixo:
 
-https://t.me/fox_priceAction_bot
+[https://t.me/fox_priceAction_bot](https://t.me/fox_priceAction_bot)
 
 
 ---

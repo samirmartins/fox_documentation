@@ -1,9 +1,9 @@
-# FOX - A LINK TO THE PRICE
-# [GUIA DE USO]
-
 <p align="center">
   <img src="img/logo.png" alt= “” class=“center” width="30%" height="30%">
 </p>
+
+# [GUIA DE USO]
+
 
 Olá! Seja bem vindo! 
 

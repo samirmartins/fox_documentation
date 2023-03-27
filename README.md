@@ -5,7 +5,7 @@
 </p>
 
 Este repositório armazena o Guia do Usuário 
-bot para Telegram **FOX - A LINK TO THE PRICE**
+do bot para Telegram **FOX - A LINK TO THE PRICE**.
 
 Este robô foi desenvolvido com o propósito de fornecer
 dados e análises em tempo real de ativos de diferentes

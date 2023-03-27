@@ -5,7 +5,7 @@ responderei quando conseguir.
 Para utilizá-lo, digite: 
 
 ```console
-/escrevame
+/escrevame Sua mensagem
 ```
 
 E verá como saída: 

@@ -20,8 +20,8 @@ abaixo da barra (rompimento de alta)
 ou acima de barra (rompimento de baixa) 
 em pelo menos 2 das últimas 3 barras.
 
-Tempos gráficos que podem ser escolhidos: **5m, 15m, 30m, 1h, 1d**, em 
-que "m" se refere a minutos, "h" a hora e "d" a dia.
+Tempos gráficos que podem ser escolhidos: **M5, M15, M30, H1, D1**, em 
+que "M" se refere a minutos, "H" a hora e "D" a dia.
 
 Para utilizá-lo, digite: 
 

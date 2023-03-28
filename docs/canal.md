@@ -1,8 +1,8 @@
 Este comando desenha um canal de melhor ajuste 
 para um ativo, em um tempo gráfico determinado.
 
-Tempos gráficos que podem ser escolhidos: **5m, 15m, 30m, 1h, 1d**, em 
-que "m" se refere a minutos, "h" a hora e "d" a dia.
+Os tempos gráficos em questão são **M5, M15, M30, H1, D1**, em 
+que "M" se refere a minutos, "H" a hora e "D" a dia.
 
 Para utilizá-lo, digite: 
 

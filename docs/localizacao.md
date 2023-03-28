@@ -1,8 +1,8 @@
 Este comando avalia a localização do preço 
 de um determinado ativo em diferentes tempos gráficos. 
 
-Os tempos gráficos em questão são **5m, 15m, 30m, 1h, 1d**, em 
-que "m" se refere a minutos, "h" a hora e "d" a dia.
+Os tempos gráficos em questão são **M5, M15, M30, H1, D1**, em 
+que "M" se refere a minutos, "H" a hora e "D" a dia.
 
 A localização pode ser "Alto", "Baixo" ou "Meio", 
 conforme a localização em um canal de melhor ajuste.

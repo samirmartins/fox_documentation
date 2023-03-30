@@ -12,7 +12,7 @@ bot para Telegram **FOX - A LINK TO THE PRICE**.
 
 Este robô foi desenvolvido com o propósito de fornecer
 dados e análises em tempo real de ativos de diferentes
-mercados financeiros (NYSE, B3, Criptomoedas e outros) 
+mercados financeiros (NYSE, B3, Criptomoedas, Fundos Imobiliários e outros) 
 utilizando **Price Action**, **Machine Learning**, 
 **Análise Técnica**, **Análise Fundamentalista** e **Análise Estatística**.
 

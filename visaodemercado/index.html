@@ -12,20 +12,20 @@
         <meta name="author" content="Samir Angelo Milani Martins">
       
       
-        <link rel="canonical" href="https://www.samirmartins.com.br/tipodemercado/">
+        <link rel="canonical" href="https://www.samirmartins.com.br/visaodemercado/">
       
       
-        <link rel="prev" href="../tendencia/">
+        <link rel="prev" href="../escrevame/">
       
       
-        <link rel="next" href="../tsi/">
+        <link rel="next" href="../ao/">
       
       <link rel="icon" href="../img/favicon.ico">
       <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.18">
     
     
       
-        <title>/tipodemercado - FOX - A LINK TO THE PRICE</title>
+        <title>/visaodemercado - FOX - A LINK TO THE PRICE</title>
       
     
     
@@ -106,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              /tipodemercado
+              /visaodemercado
             
           </span>
         </div>
@@ -230,14 +230,16 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
       
       
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
       
       
       
@@ -246,7 +248,7 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
         <label class="md-nav__title" for="__nav_2">
           <span class="md-nav__icon md-icon"></span>
           Commandos Básicos
@@ -313,11 +315,19 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../visaodemercado/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         /visaodemercado
       </a>
+      
     </li>
   
 
@@ -335,16 +345,14 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
       
       
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
       
       
       
@@ -353,7 +361,7 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_3">
           <span class="md-nav__icon md-icon"></span>
           Análise Técnica
@@ -560,19 +568,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../tipodemercado/" class="md-nav__link">
         /tipodemercado
       </a>
-      
     </li>
   
 
@@ -678,21 +678,23 @@
                   
 
 
-  <h1>/tipodemercado</h1>
+  <h1>/visaodemercado</h1>
 
-<p>Este comando analisa o tipo de mercado em diferentes tempos gráficos. 
-O mercado pode ser de ordem limitada (LOM) ou ordem stop (SOM), 
-de acordo com as definições de Al Brooks. </p>
-<p>Os tempos gráficos analisados são: <strong>5M, 15M, 30M, 1H, 1D</strong>, em 
-que "M" se refere a minutos, "H" a hora e "D" a dia.</p>
-<p>Para utilizá-lo, digite: </p>
-<pre><code class="language-console">/tipodemercado ativo
+<p>Este comando retorna um pdf que fornece uma visão geral do mercado no 
+momento em que o mesmo foi gerado. Apresenta cotações de principais 
+ativos (USD/BRL, IBOV, SP500, VIX e DXY) atrasados em 15 minutos, 
+bem como cotações em tempo real de 5 criptomoedas (BTC/USD + outras 
+4 moedas). </p>
+<p>Além disso, apresenta as próximas notícias e o horário em que 
+as mesmas ocorrerão em um calendário econômico, classificado em 
+termos de importância (<em> para a menos importante e </em>** para notícias
+mais relevantes) e cinco títulos de notícias, com respectivos
+links para os artigos completos.</p>
+<p>Para utilizá-lo, digite o comando a seguir: </p>
+<pre><code class="language-console">/visaodemercado
 </code></pre>
-<p>Exemplo: </p>
-<pre><code class="language-console">/tipodemercado VALE3.SA
-</code></pre>
-<p>E verá como saída: </p>
-<p><img alt="" src="../img/tipodemercado.png" /></p>
+<p>E verá como saída um pdf do tipo: </p>
+<p><img alt="" src="../img/visaodemercado.png" /></p>
 
 
 

@@ -2,112 +2,117 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://www.samirmartins.com.br/</loc>
-         <lastmod>2023-03-31</lastmod>
+         <lastmod>2023-09-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.samirmartins.com.br/ajuda/</loc>
-         <lastmod>2023-03-31</lastmod>
+         <lastmod>2023-09-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.samirmartins.com.br/ao/</loc>
-         <lastmod>2023-03-31</lastmod>
+         <lastmod>2023-09-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.samirmartins.com.br/ativosdisponiveis/</loc>
-         <lastmod>2023-03-31</lastmod>
+         <lastmod>2023-09-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.samirmartins.com.br/barradesinal/</loc>
-         <lastmod>2023-03-31</lastmod>
+         <lastmod>2023-09-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.samirmartins.com.br/canal/</loc>
-         <lastmod>2023-03-31</lastmod>
+         <lastmod>2023-09-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.samirmartins.com.br/contatos/</loc>
-         <lastmod>2023-03-31</lastmod>
+         <lastmod>2023-09-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.samirmartins.com.br/correlacao/</loc>
-         <lastmod>2023-03-31</lastmod>
+         <lastmod>2023-09-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.samirmartins.com.br/escrevame/</loc>
-         <lastmod>2023-03-31</lastmod>
+         <lastmod>2023-09-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.samirmartins.com.br/fundamentalista/</loc>
-         <lastmod>2023-03-31</lastmod>
+         <lastmod>2023-09-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.samirmartins.com.br/localizacao/</loc>
-         <lastmod>2023-03-31</lastmod>
+         <lastmod>2023-09-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.samirmartins.com.br/ppo/</loc>
-         <lastmod>2023-03-31</lastmod>
+         <lastmod>2023-09-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.samirmartins.com.br/resumo/</loc>
-         <lastmod>2023-03-31</lastmod>
+         <lastmod>2023-09-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.samirmartins.com.br/roc/</loc>
-         <lastmod>2023-03-31</lastmod>
+         <lastmod>2023-09-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.samirmartins.com.br/rompimentos/</loc>
-         <lastmod>2023-03-31</lastmod>
+         <lastmod>2023-09-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.samirmartins.com.br/rsi/</loc>
-         <lastmod>2023-03-31</lastmod>
+         <lastmod>2023-09-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.samirmartins.com.br/stoch/</loc>
-         <lastmod>2023-03-31</lastmod>
+         <lastmod>2023-09-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.samirmartins.com.br/stochrsi/</loc>
-         <lastmod>2023-03-31</lastmod>
+         <lastmod>2023-09-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.samirmartins.com.br/tamanhobarras/</loc>
-         <lastmod>2023-03-31</lastmod>
+         <lastmod>2023-09-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.samirmartins.com.br/tendencia/</loc>
-         <lastmod>2023-03-31</lastmod>
+         <lastmod>2023-09-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.samirmartins.com.br/tipodemercado/</loc>
-         <lastmod>2023-03-31</lastmod>
+         <lastmod>2023-09-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.samirmartins.com.br/tsi/</loc>
-         <lastmod>2023-03-31</lastmod>
+         <lastmod>2023-09-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.samirmartins.com.br/visaodemercado/</loc>
+         <lastmod>2023-09-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

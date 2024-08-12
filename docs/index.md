@@ -1,8 +1,6 @@
-<div align="center">
 
-# **<span style="color:red">ATENÇÃO: a partir do dia 21/09/2024, o Fox - A Link to The Price será colocado offline, pois não possuo mais uma VPS para hospedá-lo. Caso tenha interesse no mesmo, entre em contato [abrindo uma issue no repositório da documentação no Github](https://github.com/samirmartins/fox_guia_usuario/issues)</span>**
+# **<span style="color:red">ATENÇÃO: a partir do dia 21/09/2024, o Fox - A Link to The Price será colocado offline, pois não possuo mais uma VPS para hospedá-lo. Caso tenha interesse no mesmo, entre em contato [abrindo uma issue no repositório da documentação no Github](https://github.com/samirmartins/fox_guia_usuario/issues).</span>**
 
-</div>
 
 
 <p align="center">
